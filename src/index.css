@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: improve default font (IMPORTANT for Germany look) */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
