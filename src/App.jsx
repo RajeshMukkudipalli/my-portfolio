@@ -47,7 +47,7 @@ export default function App() {
       {/* MAIN ARCHITECTURE */}
       <section className="section architecture">
         <h2>Production-Grade DevOps Architecture</h2>
-        <img src="/diagrams/final-architecture.png" className="arch-img" />
+        <img src="/my-portfolio/diagrams/final-architecture.png" className="arch-img" />
 
         <div className="arch-highlights">
           <span>GitOps (ArgoCD)</span>
@@ -65,7 +65,7 @@ export default function App() {
 
           <div className="card">
             <h3>AWS Infrastructure (Terraform)</h3>
-            <img src="/diagrams/terraform-eks.png" />
+            <img src="/my-portfolio/diagrams/terraform-eks.png" />
             <p>VPC, Subnets, Security Groups, scalable infra</p>
             <p className="impact">80% faster provisioning</p>
           </div>
