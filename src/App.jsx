@@ -108,7 +108,7 @@ export default function App() {
       <section className="footer" id="contact">
         <h3>Contact</h3>
         <p>Email: rajesh759.dell@gmail.com</p>
-        <p className="cta">Open to EU & MAANG opportunities</p>
+        <p className="cta">Open to EU & Germany opportunities</p>
       </section>
 
     </div>
