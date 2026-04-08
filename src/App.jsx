@@ -129,7 +129,7 @@ export default function App() {
 
       {/* SKILLS */}
       <div className="skills">
-        {["AWS","Azure","Docker","Kubernetes","Terraform","GitHub Actions","ArgoCD","Linux"].map(skill => (
+        {["AWS","Azure","Docker","Kubernetes","Terraform","Jenkins","GitHub Actions","ArgoCD","Linux"].map(skill => (
           <span className="badge" key={skill}>{skill}</span>
         ))}
       </div>
