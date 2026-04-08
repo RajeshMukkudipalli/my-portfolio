@@ -42,7 +42,7 @@ export default function App() {
       {/* ARCHITECTURE */}
       <section className="section architecture fade-in">
         <h2>Production-Grade DevOps Architecture</h2>
-        <img src="/diagrams/final-architecture.png" className="arch-img" />
+        <img src={arch} className="arch-img" />
 
         <div className="arch-highlights">
           <span>GitOps (ArgoCD)</span>
@@ -60,7 +60,7 @@ export default function App() {
 
           <div className="card hover">
             <h3>AWS Infrastructure (Terraform)</h3>
-            <img src="/diagrams/terraform-eks.png" />
+            <img src={terraform} />
             <p>Secure VPC, subnets, IAM, scalable infra</p>
             <p className="impact">80% faster provisioning</p>
           </div>
