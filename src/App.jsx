@@ -1,16 +1,14 @@
 import "./App.css";
-import { useState, useEffect } from "react";
+
 
 // IMPORT IMAGES (IMPORTANT)
 import arch from "./assets/final-architecture.png";
 import terraform from "./assets/terraform-eks.png";
 
 export default function App() {
-  const [dark, setDark] = useState(false);
-
   useEffect(() => {
-    document.body.className = dark ? "dark" : "";
-  }, [dark]);
+    document.body.className = "dark";
+  }, []);
 
   return (
     <div className="container">
@@ -19,9 +17,7 @@ export default function App() {
       <nav className="navbar">
         <h2>Rajesh Mukkudipalli</h2>
         <div>
-          <button onClick={() => setDark(!dark)} className="toggle">
-            {dark ? "☀️" : "🌙"}
-          </button>
+          
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
           <a href="https://github.com/RajeshMukkudipalli" target="_blank">GitHub</a>
