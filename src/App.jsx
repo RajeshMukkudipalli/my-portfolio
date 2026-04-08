@@ -17,7 +17,7 @@ export default function App() {
 
       {/* NAVBAR */}
       <nav className="navbar">
-        <h2>Rajesh M</h2>
+        <h2>Rajesh Mukkudipalli</h2>
         <div>
           <button onClick={() => setDark(!dark)} className="toggle">
             {dark ? "☀️" : "🌙"}
