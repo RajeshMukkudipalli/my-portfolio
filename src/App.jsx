@@ -15,7 +15,7 @@ export default function App() {
 
       {/* NAVBAR */}
       <nav className="navbar">
-        <h2>Rajesh M</h2>
+        <h2>Rajesh Mukkudipalli</h2>
         <div>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
@@ -31,10 +31,10 @@ export default function App() {
         </p>
 
         <div className="hero-buttons">
-          <a href="/resume.pdf" className="btn">Download Resume</a>
+          <a href="/my-portfolio/public/resume/resume.pdf" className="btn">Download Resume</a>
           <a href="#projects" className="btn outline">View Work</a>
         </div>
-      </section>
+      </section>s
 
       {/* ARCHITECTURE */}
       <section className="section">
