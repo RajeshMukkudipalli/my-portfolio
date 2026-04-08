@@ -1,3 +1,5 @@
+import arch from "./assets/final-architecture.png";
+import terraform from "./assets/terraform-eks.png";
 import "./App.css";
 import { useState, useEffect } from "react";
 
