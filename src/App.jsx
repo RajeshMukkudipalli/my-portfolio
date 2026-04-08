@@ -1,7 +1,7 @@
+// App.jsx
 import "./App.css";
+import { useEffect } from "react";
 
-
-// IMPORT IMAGES (IMPORTANT)
 import arch from "./assets/final-architecture.png";
 import terraform from "./assets/terraform-eks.png";
 
@@ -15,9 +15,8 @@ export default function App() {
 
       {/* NAVBAR */}
       <nav className="navbar">
-        <h2>Rajesh Mukkudipalli</h2>
+        <h2>Rajesh M</h2>
         <div>
-          
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
           <a href="https://github.com/RajeshMukkudipalli" target="_blank">GitHub</a>
@@ -26,113 +25,87 @@ export default function App() {
 
       {/* HERO */}
       <section className="hero">
-        <h1>DevOps Engineer | Kubernetes | AWS</h1>
-        <p>
-          Designing scalable, production-grade DevOps systems using Kubernetes,
-          GitOps, and modern CI/CD pipelines.
+        <h1>DevOps Engineer</h1>
+        <p className="subtitle">
+          Building scalable, production-grade systems with Kubernetes, GitOps, and modern CI/CD.
         </p>
 
         <div className="hero-buttons">
-          <a href="/resume.pdf" className="btn" download>Download Resume</a>
+          <a href="/resume.pdf" className="btn">Download Resume</a>
           <a href="#projects" className="btn outline">View Work</a>
         </div>
       </section>
 
       {/* ARCHITECTURE */}
-      <section className="section architecture">
-        <h2>Production-Grade DevOps Architecture</h2>
-
+      <section className="section">
+        <h2 className="section-title">Architecture</h2>
         <img src={arch} className="arch-img" />
 
-        <div className="arch-highlights">
+        <div className="pill-container">
           <span>GitOps (ArgoCD)</span>
           <span>Kubernetes (EKS + HPA)</span>
-          <span>CI/CD Automation</span>
+          <span>CI/CD (GitHub Actions)</span>
           <span>Observability (Prometheus + ELK)</span>
         </div>
 
-        {/* DECISIONS */}
-        <div className="info-grid">
+        <div className="grid">
           <div>
-            <h4>Architecture Decisions</h4>
+            <h4>Decisions</h4>
             <ul>
-              <li>Used EKS for managed Kubernetes scalability</li>
-              <li>Redis introduced for caching to reduce DB load</li>
-              <li>MongoDB used for flexible document storage</li>
-              <li>ArgoCD for GitOps-based deployments</li>
+              <li>EKS for managed scalability</li>
+              <li>Redis for caching</li>
+              <li>MongoDB for flexible schema</li>
+              <li>ArgoCD for GitOps</li>
             </ul>
           </div>
 
           <div>
             <h4>Scalability</h4>
             <ul>
-              <li>Horizontal Pod Autoscaler (HPA)</li>
-              <li>ALB distributes traffic across services</li>
-              <li>Microservices enable independent scaling</li>
-              <li>Stateless services improve resilience</li>
+              <li>HPA auto scaling</li>
+              <li>Load balancing via ALB</li>
+              <li>Microservices architecture</li>
+              <li>Stateless design</li>
             </ul>
           </div>
         </div>
 
-        {/* CHALLENGES */}
-        <div className="challenge-box">
-          <h4>Challenges & Solutions</h4>
+        <div className="challenge">
+          <h4>Challenges</h4>
           <ul>
-            <li>Fixed GitHub Pages base path issue (Vite config)</li>
-            <li>Resolved CI/CD failures in GitHub Actions</li>
-            <li>Handled static asset loading in production</li>
-            <li>Debugged deployment pipeline errors</li>
+            <li>Fixed GitHub Pages deployment issues</li>
+            <li>Resolved CI/CD failures</li>
+            <li>Handled asset path issues in Vite</li>
           </ul>
         </div>
       </section>
 
       {/* PROJECTS */}
       <section className="section" id="projects">
-        <h2>Projects</h2>
+        <h2 className="section-title">Projects</h2>
 
-        <div className="projects-grid">
+        <div className="projects">
 
           <div className="card">
-            <h3>AWS Infrastructure (Terraform)</h3>
             <img src={terraform} />
-            <p>Designed VPC, subnets, security groups, and scalable infra</p>
-
-            <ul>
-              <li>Reusable Terraform modules</li>
-              <li>Secure network isolation</li>
-              <li>NAT Gateway for private access</li>
-            </ul>
-
-            <p className="impact">80% faster provisioning</p>
+            <h3>Terraform Infrastructure</h3>
+            <p>Secure AWS infra with VPC, subnets, IAM</p>
+            <span className="impact">80% faster provisioning</span>
           </div>
 
           <div className="card">
-            <h3>DevOps Platform (EKS + GitOps)</h3>
             <img src={arch} />
-            <p>End-to-end CI/CD with Kubernetes and observability</p>
-
-            <ul>
-              <li>GitHub Actions CI/CD pipeline</li>
-              <li>ArgoCD GitOps deployment</li>
-              <li>Prometheus + ELK monitoring</li>
-            </ul>
-
-            <p className="impact">70% faster deployments</p>
+            <h3>DevOps Platform</h3>
+            <p>EKS + GitOps + Observability</p>
+            <span className="impact">70% faster deployments</span>
           </div>
 
         </div>
       </section>
 
-      {/* SKILLS */}
-      <div className="skills">
-        {["AWS","Azure","Docker","Kubernetes","Terraform","Jenkins","GitHub Actions","ArgoCD","Linux"].map(skill => (
-          <span className="badge" key={skill}>{skill}</span>
-        ))}
-      </div>
-
-      {/* CONTACT */}
-      <section className="section contact" id="contact">
-        <h2>Contact</h2>
+      {/* FOOTER */}
+      <section className="footer" id="contact">
+        <h3>Contact</h3>
         <p>Email: rajesh759.dell@gmail.com</p>
         <p className="cta">Open to EU & MAANG opportunities</p>
       </section>
@@ -140,3 +113,4 @@ export default function App() {
     </div>
   );
 }
+
