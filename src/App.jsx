@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 import arch from "./assets/final-architecture.png";
 import terraform from "./assets/terraform-eks.png";
+import resume from "./assets/resume.pdf";
 
 export default function App() {
   useEffect(() => {
@@ -31,7 +32,7 @@ export default function App() {
         </p>
 
         <div className="hero-buttons">
-          <a href="/my-portfolio/public/resume/resume.pdf" className="btn">Download Resume</a>
+        <a href={resume} className="btn" download>Download Resume</a>
           <a href="#projects" className="btn outline">View Work</a>
         </div>
       </section>s
