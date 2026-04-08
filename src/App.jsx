@@ -83,7 +83,7 @@ export default function App() {
       {/* CONTACT */}
       <section className="section contact fade-in" id="contact">
         <h2>Contact</h2>
-        <p>Email: your-email@gmail.com</p>
+        <p>Email: rajesh759.dell@gmail.com</p>
         <p className="cta">Open to EU & Germany opportunities</p>
       </section>
 

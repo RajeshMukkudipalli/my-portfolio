@@ -165,3 +165,9 @@ body.dark .badge {
     transform: translateY(0);
   }
 }
+
+body.dark .arch-highlights span {
+  background: #334155;
+  color: #f1f5f9;
+  border: 1px solid #475569;
+}
