@@ -511,7 +511,7 @@ export default function Portfolio() {
         </div>
         <h1 className="hero-name">
           RAJESH<br />
-          <span className="accent-word">MUKKU</span>DIPALLI
+          <span className="accent-word">MUKKUDIPALLI</span>
         </h1>
         <p className="hero-sub">
           I build <strong>production-grade cloud systems</strong> that scale to millions of users —
@@ -606,9 +606,9 @@ export default function Portfolio() {
           <h2 className="section-title">EXPERIENCE</h2>
           <div className="timeline">
             <div className="timeline-item">
-              <div className="timeline-period">2023 — Present</div>
+              <div className="timeline-period">2024 — Present</div>
               <div className="timeline-role">Senior DevOps Engineer</div>
-              <div className="timeline-company">Leading FinTech · Hyderabad, India</div>
+              <div className="timeline-company">TCS · Hyderabad, India</div>
               <ul className="timeline-points">
                 <li>Architected and migrated production workloads to EKS with zero downtime using blue-green strategy</li>
                 <li>Implemented GitOps with ArgoCD, reducing deployment time from 45 mins to under 4 mins</li>
@@ -617,24 +617,16 @@ export default function Portfolio() {
               </ul>
             </div>
             <div className="timeline-item">
-              <div className="timeline-period">2021 — 2023</div>
+              <div className="timeline-period">2022 — 2024</div>
               <div className="timeline-role">DevOps Engineer</div>
-              <div className="timeline-company">Software Services Company · India</div>
+              <div className="timeline-company">TCS · Hyderabad, India</div>
               <ul className="timeline-points">
                 <li>Designed Terraform infrastructure for VPC, subnets, ALB, and IAM — 80% faster provisioning</li>
                 <li>Built CI/CD pipelines with GitHub Actions for 12+ microservices</li>
                 <li>Containerized legacy monolith into 8 independent services with Docker & Kubernetes</li>
               </ul>
             </div>
-            <div className="timeline-item" style={{ paddingBottom: 0 }}>
-              <div className="timeline-period">2020 — 2021</div>
-              <div className="timeline-role">Cloud & Systems Engineer</div>
-              <div className="timeline-company">Early-stage Startup · India</div>
-              <ul className="timeline-points">
-                <li>Managed AWS workloads and introduced infrastructure automation with Ansible</li>
-                <li>Reduced manual deployment effort by 60% through scripting and automation</li>
-              </ul>
-            </div>
+            
           </div>
         </div>
       </div>
